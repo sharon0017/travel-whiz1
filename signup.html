@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Travel Whiz</title>
+    <!-- Add your CSS link here if you have one -->
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <div class="container" style="max-width: 400px; margin-top: 50px;">
+        <form id="signupForm">
+            <h2 style="text-align: center;">Create Account</h2>
+            <p style="text-align: center; color: #666; font-size: 0.9rem;">Join the local traveler community</p>
+            
+            <input type="text" placeholder="Full Name" required>
+            <div class="error-msg">Name is required</div>
+            
+            <input type="email" placeholder="Email Address" required>
+            <div class="error-msg">Enter a valid email</div>
+            
+            <input type="password" id="pass" placeholder="Create Password" required>
+            <div class="error-msg">Password must be 6+ characters</div>
+            
+            <button type="submit" class="btn" style="margin-top: 20px;">Sign Up</button>
+            
+            <p style="text-align: center; margin-top: 15px; font-size: 0.9rem;">
+                Already have an account? <a href="login.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">Login</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
